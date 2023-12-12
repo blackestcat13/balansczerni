@@ -33,10 +33,11 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "less",
             "assets": [
-              "src/favicon.ico",
+              "src/favicon.png",
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.less"
             ],
             "scripts": [],
@@ -98,10 +99,12 @@
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "less",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "src/favicon.png",
+              "src/assets",
+              "src/assets/img"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.less"
             ],
             "scripts": []
@@ -109,5 +112,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a742ffc0-27fb-478f-8e7b-330997e13e35"
   }
 }
